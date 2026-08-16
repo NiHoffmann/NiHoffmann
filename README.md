@@ -3,7 +3,7 @@ Embedded systems developer & robotics enthusiast, with a focus on low-level firm
 
 A few of the bigger milestones (minus plenty of smaller stuff along the way):
 - 🔧 Formerly a HiWi (student assistant) at the **Embedded Systems Lab, H-BRS** - debugging & testing of an embedded systems library, and designed a simple STM32 development board and adapters
-- 🔬 Previously at **Fraunhofer IAIS** - Spike Prime / Pybricks integration, and massively simplified how robots get registered and connected across the whole system - For [Open Roberta Lab](https://lab.open-roberta.org/).
+* 🔬 Previously at Fraunhofer IAIS - Spike Prime / Pybricks integration, and massively simplified how robots get registered and connected across the whole system, shipped in production on [Open Roberta Lab](https://lab.open-roberta.org/).
 - 🛠️ Currently at **Fraunhofer FKIE** - designing hardware and developing firmware for a mobile sensor platform, with a strong focus on energy efficiency (not open source, unfortunately 😅)  
 - 🐍 Proud of my **MicroPython C-API port for the Open Robotic Board (ORB-Project)** - full native integration of MicroPython into STM32 firmware, exposing motor/sensor control to Python through custom C bindings. Robots running this port were demonstrated live at Gamescom as part of my university's public exhibit.
 ---
