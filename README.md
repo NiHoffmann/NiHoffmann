@@ -28,6 +28,7 @@ A few of the bigger milestones (minus plenty of smaller stuff along the way):
 ### 🔗 Elsewhere
 [![Open Roberta Lab](https://img.shields.io/badge/Open%20Roberta%20Lab-004A99?style=for-the-badge&logo=robotframework&logoColor=white)](https://lab.open-roberta.org/)
 [![ORB Project](https://img.shields.io/badge/ORB--Project-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NiHoffmann/ORB)
+[![ORB @ H-BRS](https://img.shields.io/badge/ORB%20%40%20H--BRS-005D92?style=for-the-badge&logo=readthedocs&logoColor=white)](https://www.h-brs.de/en/inf/project-robocup-junior-rescue-line-orb-robot)
 [![GitLab](https://img.shields.io/badge/GitLab-fc6d26?style=for-the-badge&logo=gitlab&logoColor=white)](https://git.fslab.de/nhoff12s)
 [![Open Roberta GitHub](https://img.shields.io/badge/Open%20Roberta%20Org-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/OpenRoberta)
 
