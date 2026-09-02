@@ -4,7 +4,13 @@ Embedded systems developer & robotics enthusiast, with a focus on low-level firm
 A few of the bigger milestones (minus plenty of smaller stuff along the way):
 - 🔧 Formerly a HiWi (student assistant) at the **Embedded Systems Lab, H-BRS** - debugging & testing of an embedded systems library, and designed a simple STM32 development board and adapters
 - 🔬 Previously at **Fraunhofer IAIS** - integrated "Spike Prime / Robot Inventor / Pybricks" over Web BLE, and simplified how robots get registered and connected across the whole system - both shipped in production on Open Roberta Lab.  
-- 🛠️ Currently at **Fraunhofer FKIE** - **Sole owner** of a **mobile sensor platform** (supports any Quectel mini PCIe modem, plus early-stage LoRa scanning), redesigned from the ground up (replacing a prior Raspberry Pi-based system) for at least **~6x better energy efficiency** across the device's full field duty cycle : hardware, firmware, case design, GUI tooling, and testing & assembly. ~120µA deep sleep (RTC-gated) / ~400µA light sleep (accelerometer-gated) via tickless FreeRTOS and split power domains - limited by the LTE modem's and GPS's base current draw. (Not open source, unfortunately, so that's all I can share here 😅)
+- 🛠️ **Currently at Fraunhofer FKIE** - Sole owner of a **mobile sensor platform**, redesigned from the ground up to replace a prior Raspberry Pi-based system.
+  - **Full-stack ownership**: hardware, firmware, case design, GUI tooling, testing & assembly
+  - at least **~6x better energy efficiency** across the full field duty cycle (mainly limited by gps, modem base current draw)
+  - ~120µA deep sleep (RTC-gated) / ~400µA light sleep (accelerometer-gated) via tickless FreeRTOS + split power domains
+  - Supports any Quectel mini PCIe modem, plus an extendable LoRa/composite scanning mode
+  - Fully field-reconfigurable over serial (scan mode, LoRa credentials, wake/sleep schedule - no reflash needed)
+  - (Not open source, unfortunately, so that's all I can share here 😅)
 - 🐍 Proud of my **MicroPython C-API port for the Open Robotic Board (ORB-Project)** - full native integration of MicroPython into STM32 firmware, exposing motor/sensor control to Python through custom C bindings. Robots running this port were demonstrated live at Gamescom as part of my university's public exhibit.
 
 ### ⚙️ Tech & Tools
