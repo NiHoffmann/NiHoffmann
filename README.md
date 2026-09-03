@@ -23,6 +23,7 @@ A few of the bigger milestones (minus plenty of smaller stuff along the way):
 ![BLE](https://img.shields.io/badge/BLE-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white)
 ![LTE](https://custom-icon-badges.demolab.com/badge/LTE-0082FC?style=for-the-badge&logo=radio-tower&logoColor=white&logoSource=feather)
 ![GPS](https://custom-icon-badges.demolab.com/badge/GPS-0082FC?style=for-the-badge&logo=map-pin&logoColor=white&logoSource=feather)
+![LoRa](https://custom-icon-badges.demolab.com/badge/LoRa-0082FC?style=for-the-badge&logo=radio-tower&logoColor=white&logoSource=feather)
 ![Firmware](https://img.shields.io/badge/Firmware-1F6FEB?style=for-the-badge)
 ![Hardware Design](https://img.shields.io/badge/Hardware%20Design-D9822B?style=for-the-badge)
 ![Low-Power Design](https://img.shields.io/badge/Low--Power%20Design-6B7280?style=for-the-badge)
