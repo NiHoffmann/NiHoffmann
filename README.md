@@ -11,7 +11,7 @@ A few of the bigger milestones (minus plenty of smaller stuff along the way):
   - Supports any Quectel mini PCIe modem, plus an extendable/exemplary LoRa/composite scanning mode
   - Fully field-reconfigurable over serial (scan mode, sensor configuration,e.g. LTE target Band, wake/sleep schedule - no reflash needed)
   - (Not open source, unfortunately, so that's all I can share here 😅)
-- 🐍 Proud of my **MicroPython C-API port for the Open Robotic Board (ORB-Project)** - full native integration of MicroPython into STM32 firmware, exposing motor/sensor control to Python through custom C bindings. Robots running this port were demonstrated live at Gamescom as part of my university's public exhibit.
+- 🐍 Proud of my **MicroPython C-API port for the Open Robotic Board (ORB-Project)** - full native integration of MicroPython into STM32 firmware, exposing motor/sensor control to Python through custom C bindings. Robots running this port were **demonstrated at Gamescom** as part of my university's public exhibit.
 
 ### ⚙️ Tech & Tools
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
