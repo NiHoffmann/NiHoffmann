@@ -5,7 +5,7 @@ A few of the bigger milestones (minus plenty of smaller stuff along the way):
 - 🔧 Formerly a HiWi (student assistant) at the **Embedded Systems Lab, H-BRS** - debugging & testing of an embedded systems library, and designed a simple STM32 development board and adapters
 - 🔬 Previously at **Fraunhofer IAIS** - integrated "Spike Prime / Robot Inventor / Pybricks" over Web BLE, and simplified how robots get registered and connected across the whole system - both shipped in production on Open Roberta Lab.  
 - 🛠️ **Currently at Fraunhofer FKIE** - Sole owner of a **mobile sensor platform**, redesigned from the ground up to replace a prior Raspberry Pi-based system.
-  - **Full-stack ownership**: hardware, firmware, case design, GUI tooling, testing & assembly
+  - **Full-stack ownership**: hardware, firmware, case design, GUI tooling, testing, power profiling & assembly
   - at least **~6x better energy efficiency** across the full field duty cycle (mainly limited by gps, modem base current draw)
   - ~120µA deep sleep (RTC-gated) / ~400µA light sleep (accelerometer-gated) via split power domains and tickless FreeRTOS managing task scheduling in active and idle mode
   - Supports any Quectel mini PCIe modem, plus an extendable/exemplary LoRa/composite scanning mode
