@@ -7,7 +7,7 @@ A few of the bigger milestones (minus plenty of smaller stuff along the way):
 - 🛠️ **Currently at Fraunhofer FKIE** - Sole owner of a **mobile sensor platform**, redesigned from the ground up to replace a prior Raspberry Pi-based system.
   - **Full-stack ownership**: hardware, firmware, case design, GUI tooling, testing & assembly
   - at least **~6x better energy efficiency** across the full field duty cycle (mainly limited by gps, modem base current draw)
-  - ~120µA deep sleep (RTC-gated) / ~400µA light sleep (accelerometer-gated) via tickless FreeRTOS + split power domains
+  - ~120µA deep sleep (RTC-gated) / ~400µA light sleep (accelerometer-gated)via split power domains and tickless FreeRTOS managing task scheduling in active and idle mode
   - Supports any Quectel mini PCIe modem, plus an extendable/exemplary LoRa/composite scanning mode
   - Fully field-reconfigurable over serial (scan mode, sensor configuration,e.g. LTE target Band, wake/sleep schedule - no reflash needed)
   - (Not open source, unfortunately, so that's all I can share here 😅)
