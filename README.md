@@ -2,8 +2,7 @@
 Embedded systems developer & robotics enthusiast, with a focus on low-level firmware and hardware/software integration.
 
 A few of the bigger milestones (minus plenty of smaller stuff along the way):
-- 🔧 Formerly a HiWi (student assistant) at the **Embedded Systems Lab, H-BRS** - debugging & testing of an embedded systems library, and designed a simple STM32 development board and adapters
-- 🔬 Previously at **Fraunhofer IAIS** - integrated "Spike Prime / Robot Inventor / Pybricks" over Web BLE, and simplified how robots get registered and connected across the whole system - both shipped in production on Open Roberta Lab.  
+
 - 🛠️ **Currently at Fraunhofer FKIE** - Sole owner of a **mobile sensor platform**, redesigned from the ground up to replace a prior Raspberry Pi-based system.
   - **Full-stack ownership**: hardware, firmware, case design, GUI tooling, testing, power profiling & assembly
   - at least **~6x better energy efficiency** across the full field duty cycle (mainly limited by gps, modem base current draw)
@@ -11,9 +10,12 @@ A few of the bigger milestones (minus plenty of smaller stuff along the way):
   - Supports any Quectel mini PCIe modem, plus an extendable/exemplary LoRa/composite scanning mode
   - Fully field-reconfigurable over serial (scan mode, sensor configuration,e.g. LTE target Band, wake/sleep schedule - no reflash needed)
   - (Not open source, unfortunately, so that's all I can share here 😅)
-
-- 🐍 Proud of my **MicroPython C-API port for the Open Robotic Board (ORB-Project)**
+    
+- 🐍 Proud of my **MicroPython C-API port for the Open Robotic Board ([ORB-MicroPython-EmbedPort](https://github.com/NiHoffmann/ORB-MicroPython-EmbedPort))**
  full native integration of MicroPython into STM32 firmware, exposing motor/sensor control to Python through custom C bindings. Robots running this port were **demonstrated at Gamescom** as part of my university's public exhibit, and MicroPython **is now listed as an official programming option** for ORB.
+
+- 🔬 Previously at **Fraunhofer IAIS** - integrated "Spike Prime / Robot Inventor / Pybricks" over Web BLE, and simplified how robots get registered and connected across the whole system - both shipped in production on Open Roberta Lab.  
+- 🔧 Formerly a HiWi (student assistant) at the **Embedded Systems Lab, H-BRS** - debugging & testing of an embedded systems library, and designed a simple STM32 development board and adapters
 
 ### ⚙️ Tech & Tools
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
