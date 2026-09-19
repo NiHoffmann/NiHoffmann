@@ -3,13 +3,15 @@ Embedded systems developer & robotics enthusiast, with a focus on low-level firm
 
 A few of the bigger milestones (minus plenty of smaller stuff along the way):
 
-- 🛠️ **Currently at Fraunhofer FKIE** - Sole owner of a **mobile sensor platform**, redesigned from the ground up to replace a prior Raspberry Pi-based system.
+- 🛠️ **Currently at Fraunhofer FKIE** – Sole owner of a **mobile sensor platform**, redesigned from the ground up to replace a Raspberry Pi-based predecessor.
   - **Full-stack ownership**: hardware, firmware, case design, GUI tooling, testing, power profiling & assembly
-  - at least **~6x better energy efficiency** across the full field duty cycle (mainly limited by gps, modem base current draw)
-  - ~120µA deep sleep (RTC-gated) / ~400µA light sleep (accelerometer-gated) via split power domains and tickless FreeRTOS managing task scheduling in active and idle mode
-  - Supports any Quectel mini PCIe modem, plus an extendable/exemplary LoRa/composite scanning mode
-  - Fully field-reconfigurable over serial (scan mode, sensor configuration,e.g. LTE target Band, wake/sleep schedule - no reflash needed)
-  - (Not open source, unfortunately, so that's all I can share here 😅)
+  - **~6x better energy efficiency** across the full field duty cycle (remaining draw dominated by GPS and modem base current)
+  - **~120 µA deep sleep** (RTC-gated) / **~400 µA light sleep** (accelerometer-gated) via split power domains and tickless FreeRTOS scheduling across active and idle modes
+  - **Modular firmware**: an abstraction layer makes new sensors and scan modes easy to add (LoRa and composite scanning implemented as examples)
+  - Supports any **Quectel mini PCIe modem** with freely configurable scan behavior
+  - **Field-reconfigurable over serial, no reflash needed**: scan mode, sensor configuration (e.g. LTE target band), wake/sleep schedule
+  - Internal Python GUI tool for config upload, data download, and info-buffer retrieval
+  - *(Not open source, unfortunately, so that's all I can share here 😅)*
     
 - 🐍 Proud of my **MicroPython C-API port for the Open Robotic Board ([ORB-MicroPython-EmbedPort](https://github.com/NiHoffmann/ORB-MicroPython-EmbedPort))**
  full native integration of MicroPython into STM32 firmware, exposing motor/sensor control to Python through custom C bindings. Robots running this port were **demonstrated at Gamescom** as part of my university's public exhibit, and MicroPython **is now listed as an official programming option** for ORB.
