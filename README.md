@@ -11,7 +11,8 @@ A few of the bigger milestones (minus plenty of smaller stuff along the way):
   - Supports any **Quectel mini PCIe modem** with freely configurable scan behavior
   - **Field-reconfigurable over serial, no reflash needed**: scan mode, sensor configuration (e.g. LTE target band), wake/sleep schedule
   - Internal Python GUI tool for config upload, data download, and info-buffer retrieval
-  - *(Not open source, unfortunately, so that's all I can share here 😅)*
+  
+  *(Not open source, unfortunately, so that's all I can share here 😅)*
     
 - 🐍 Proud of my **MicroPython C-API port for the Open Robotic Board ([ORB-MicroPython-EmbedPort](https://github.com/NiHoffmann/ORB-MicroPython-EmbedPort))**
  full native integration of MicroPython into STM32 firmware, exposing motor/sensor control to Python through custom C bindings. Robots running this port were **demonstrated at Gamescom** as part of my university's public exhibit, and MicroPython **is now listed as an official programming option** for ORB.
