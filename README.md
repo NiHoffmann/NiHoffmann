@@ -16,7 +16,7 @@ A few of the bigger milestones (minus plenty of smaller stuff along the way):
 - 🐍 Proud of my **MicroPython C-API port for the Open Robotic Board ([ORB-MicroPython-EmbedPort](https://github.com/NiHoffmann/ORB-MicroPython-EmbedPort))**
  full native integration of MicroPython into STM32 firmware, exposing motor/sensor control to Python through custom C bindings. Robots running this port were **demonstrated at Gamescom** as part of my university's public exhibit, and MicroPython **is now listed as an official programming option** for ORB.
 
-- 🔬 Previously at **Fraunhofer IAIS** - integrated "Spike Prime / Robot Inventor / Pybricks" over Web BLE, and simplified how robots get registered and connected across the whole system - both shipped in production on Open Roberta Lab.  
+- 🔬 Previously at **Fraunhofer IAIS** - integrated "Spike Prime / Robot Inventor / Pybricks" over Web BLE, code generation, program download and simplified how robots get registered and connected across the whole system - both shipped in production on Open Roberta Lab.  
 - 🔧 Formerly a HiWi (student assistant) at the **Embedded Systems Lab, H-BRS** - debugging & testing of an embedded systems library, and designed a simple STM32 development board and adapters
 
 ### ⚙️ Tech & Tools
