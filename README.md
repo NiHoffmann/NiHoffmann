@@ -4,7 +4,7 @@ Embedded systems developer & robotics enthusiast, with a focus on low-level firm
 A few of the bigger milestones (minus plenty of smaller stuff along the way):
 - 🎓 Currently studying **MSc Computer Science** at **Hochschule Bonn-Rhein-Sieg (H-BRS)**, specializing in **Cyber Physical Systems**.
   
-- 🛠️ **Currently at Fraunhofer FKIE** - Sole owner of a **mobile sensor platform**, redesigned from the ground up to replace a Raspberry Pi-based predecessor.
+- 🛠️ **Currently at Fraunhofer FKIE** - Sole owner of a **mobile sensor platform**, redesigned from the ground up to replace a Raspberry Pi-based system.
   - **Full-stack ownership**: hardware, firmware, case design, GUI tooling, testing, power profiling & assembly
   - **~5-6x better energy efficiency** across the full field duty cycle (remaining draw dominated by GPS and modem base current) via split power domains and tickless FreeRTOS scheduling across active and idle modes
   - **~120 µA deep sleep** (RTC-gated) / **~400 µA idle mode** (accelerometer-gated) at **12 V** for the entire device 
