@@ -18,7 +18,7 @@ A few of the bigger milestones (minus plenty of smaller stuff along the way):
  full native integration of MicroPython into STM32 firmware, exposing motor/sensor control to Python through custom C bindings. Robots running this port were **demonstrated at Gamescom** as part of my university's public exhibit, and MicroPython **is now listed as an official programming option** for ORB.
 
 - 🔬 Previously at **Fraunhofer IAIS** - integrated "Spike Prime / Robot Inventor / Pybricks" over Web BLE, code generation, program download and simplified how robots get registered and connected across the whole system - both shipped in production on Open Roberta Lab.  
-- 🔧 Formerly a HiWi (student assistant) at the **Embedded Systems Lab, H-BRS** - debugging & testing of an embedded systems library, and designed hardware for embedded systems classes (STM32 breakout board, GPIO-to-JTAG breakout adapter (PCB), bidirectional motor encoder (PCB))
+- 🔧 Formerly a HiWi (student assistant) at the **Embedded Systems Lab, H-BRS** - debugging & testing of an embedded systems library, and designed hardware for embedded systems classes (STM32 breakout board, GPIO-to-JTAG adapter (not the actual "Flash-Adapter" just a connector to connector PCB with power indicator), bidirectional motor encoder (PCB))
   
 ### ⚙️ Tech & Tools
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
